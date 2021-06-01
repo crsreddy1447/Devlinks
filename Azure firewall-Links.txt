@@ -1,0 +1,30 @@
+Azure-Firewall Links
+https://www.testpreptraining.com/tutorial/deploy-and-configure-azure-firewall/
+https://www.rebeladmin.com/2018/07/step-step-guide-azure-firewall-preview/
+https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal
+https://blog.ipswitch.com/getting-started-with-azure-firewall   **
+https://www.starwindsoftware.com/blog/deploy-and-configure-azure-firewall
+
+Required COmponents
+1. Vnet 
+    Subnet1 --- AzureFirewallSubnet  10.0.1.0/26
+	Subnet2 ---- Workload-SN 10.0.2.0/24
+	
+2. VM in subnet2
+    No public ports
+	
+3. Firewall 
+
+4. Create Routes for Workload-SN subnet 
+
+5. Configure Application Rule
+   Inbound and outbound rules 
+   
+6. Configure Network Rule
+
+7. Configure a DNAT rule
+
+8. Change the primary and secondary DNS address for the Srv-Work network interface
+
+9. Test the firewall
+
