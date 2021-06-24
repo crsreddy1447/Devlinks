@@ -9,22 +9,19 @@ Required COmponents
 1. Vnet 
     Subnet1 --- AzureFirewallSubnet  10.0.1.0/26
 	Subnet2 ---- Workload-SN 10.0.2.0/24
-	
-2. VM in subnet2
+2. 2VM in subnet2
     No public ports
-	
 3. Firewall 
-
 4. Create Routes for Workload-SN subnet 
-
 5. Configure Application Rule
    Inbound and outbound rules 
-   
 6. Configure Network Rule
-
 7. Configure a DNAT rule
-
 8. Change the primary and secondary DNS address for the Srv-Work network interface
-
 9. Test the firewall
 
+ARM template
+https://github.com/sameeraman/azureARMTemplates/blob/master/AzureFirewall/AzureFirewall-Full.json
+3subnets, 2vms, 1vnet, 2public ip, routes
+Firewall policy
+https://docs.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy
